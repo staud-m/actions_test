@@ -1,0 +1,19 @@
+name: Deploy-Hallo-Welt
+
+on: push
+
+jobs:
+  hello:
+    runs-on: ubuntu
+    steps:
+      - name: Hallo
+        run: |
+          echo "Hallo Welt"
+  # deploy:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: checkout
+  #       uses: actions/checkout
+      
+  #     - name: ssh_setup
+  #       run: 
